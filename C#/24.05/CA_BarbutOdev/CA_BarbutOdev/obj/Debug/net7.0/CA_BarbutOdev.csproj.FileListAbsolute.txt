@@ -1,0 +1,14 @@
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\bin\Debug\net7.0\CA_BarbutOdev.exe
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\bin\Debug\net7.0\CA_BarbutOdev.deps.json
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\bin\Debug\net7.0\CA_BarbutOdev.runtimeconfig.json
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\bin\Debug\net7.0\CA_BarbutOdev.dll
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\bin\Debug\net7.0\CA_BarbutOdev.pdb
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.dll
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\refint\CA_BarbutOdev.dll
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.pdb
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\CA_BarbutOdev.genruntimeconfig.cache
+C:\Users\buse-\OneDrive\Desktop\C#\24.05\CA_BarbutOdev\CA_BarbutOdev\obj\Debug\net7.0\ref\CA_BarbutOdev.dll
