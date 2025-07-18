@@ -1,0 +1,35 @@
+1- Başla
+2- Fırını kontrol et.
+   --Açık mı?
+   180 dereceye ayarla ve 15 dakika süre ile fırını aç.
+   --Kapalı mı?
+   Aç
+3- Buzdolabını kontrol et.
+   --Açık mı?
+   Balıkları,sarımsağı al
+   --Kapalı mı?
+   Aç
+4- Malzeme dolabını kontrol et.
+   --Açık mı?
+   Havanı ve zeytin yağını al.
+   
+   --Kapalı mı?
+   Aç
+5- Baharat Dolabını kontrol et.
+   --Açık mı?
+   Taze biberiye, soya sosu, karabiber, tuz, kekik, kırmızı tozbiber al.
+   -- Kapalı mı?
+   Aç
+6- Malzemeleri Tezgahın üzerine yerleştir.
+7- Havanın içine 2 çay kaşığı tuz ve sarımsakları yerleştir.
+8- Sarımsakları tuz ile birlikte döv.
+9- 1 demet taze biberiye, 2 çorba kaşığı soya sosu, 2 gr karabiber, 4 gr kekik , 6 gr kırmızı tozbiberi ve 10 gr zeyti yağını havana koy.
+10- Havanda hepsini karıştır.
+11- Balıkları tezgahtan al.
+12- Balıkları fırın tepsisine yerleştir.
+13- Havandaki sosu balıkları yerleştirdiğin tepsiye dök
+14- Balıkları sos ile harmanla 
+15- Hazırladığın tepsiyi fırına ver.
+16-Süreyi 20 dakikaya ayarlayıp süreyi tekrar başlat.
+17-Bitir.
+   
