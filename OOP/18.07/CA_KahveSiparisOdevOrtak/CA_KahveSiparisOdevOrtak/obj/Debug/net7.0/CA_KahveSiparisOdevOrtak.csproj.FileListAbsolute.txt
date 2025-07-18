@@ -1,0 +1,15 @@
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\bin\Debug\net7.0\CA_KahveSiparisOdevOrtak.exe
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\bin\Debug\net7.0\CA_KahveSiparisOdevOrtak.deps.json
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\bin\Debug\net7.0\CA_KahveSiparisOdevOrtak.runtimeconfig.json
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\bin\Debug\net7.0\CA_KahveSiparisOdevOrtak.dll
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\bin\Debug\net7.0\CA_KahveSiparisOdevOrtak.pdb
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.sourcelink.json
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.dll
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\refint\CA_KahveSiparisOdevOrtak.dll
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.pdb
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\CA_KahveSiparisOdevOrtak.genruntimeconfig.cache
+C:\Users\buse-\OneDrive\Desktop\Drills\CA_KahveSiparisOdevOrtak\CA_KahveSiparisOdevOrtak\obj\Debug\net7.0\ref\CA_KahveSiparisOdevOrtak.dll
