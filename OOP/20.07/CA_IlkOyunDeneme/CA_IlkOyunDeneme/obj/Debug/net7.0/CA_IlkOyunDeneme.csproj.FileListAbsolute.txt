@@ -1,0 +1,15 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\bin\Debug\net7.0\CA_IlkOyunDeneme.exe
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\bin\Debug\net7.0\CA_IlkOyunDeneme.deps.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\bin\Debug\net7.0\CA_IlkOyunDeneme.runtimeconfig.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\bin\Debug\net7.0\CA_IlkOyunDeneme.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\bin\Debug\net7.0\CA_IlkOyunDeneme.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.sourcelink.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\refint\CA_IlkOyunDeneme.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\CA_IlkOyunDeneme.genruntimeconfig.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_IlkOyunDeneme\CA_IlkOyunDeneme\obj\Debug\net7.0\ref\CA_IlkOyunDeneme.dll
