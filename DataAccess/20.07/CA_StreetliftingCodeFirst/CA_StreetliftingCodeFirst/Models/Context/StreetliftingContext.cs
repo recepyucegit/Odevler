@@ -111,8 +111,15 @@ namespace CA_StreetliftingCodeFirst.Models.Context
             modelBuilder.Entity<UserDetail>()
                 .HasData(UserDetailSeedData.userDetailsData);
 
+            //Exercise Seed Data
 
+            modelBuilder.Entity<Exercise>()
+                .HasData(ExerciseSeedData.exercisesSeedData);
 
+            //Routine Seed Data
+
+            modelBuilder.Entity<Routine>()
+                .HasData(RoutineSeedData.routineSeedData);
 
 
 

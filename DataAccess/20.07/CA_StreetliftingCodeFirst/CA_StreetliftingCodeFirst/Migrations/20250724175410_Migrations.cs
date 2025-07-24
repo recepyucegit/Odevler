@@ -140,6 +140,21 @@ namespace CA_StreetliftingCodeFirst.Migrations
                 });
 
             migrationBuilder.InsertData(
+                table: "Exercises",
+                columns: new[] { "Id", "BenchPress", "DeadLift", "Dip", "HollowBodyHold", "LegRaise", "OverHeadPress", "Plank", "PullUp", "PushUp", "Row", "Squat" },
+                values: new object[,]
+                {
+                    { 1, "Bench Press güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.", "Deadlift güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.", null, null, null, "Overhead Press güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.", null, "Pull Up güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.", null, null, "Squat güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılı." },
+                    { 2, null, null, "Dip güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.", null, null, null, null, null, "Push Up güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.", "Row güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.", null },
+                    { 3, null, null, null, "Hollow Body Hold güçlenme fazında 30-60 sn @9 RPE olarak yapılır.", "Leg Raise güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.", null, "Plank güçlenme fazında 30-60 @9 RPE olarak yapılır.", null, null, null, null }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Routines",
+                columns: new[] { "Id", "Core", "FullBody", "Legs", "LowerBody", "Pull", "Push", "UpperBody" },
+                values: new object[] { 1, "Deadlift-Plank-LegRaise", "Deadlift-Squat-BenchPress-PullUp-HollowBodyHold", "Squat", "Squat-Plank", "Row- Pullup ", "OHP-BenchPress", "Dips-Row-Pushup  " });
+
+            migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Email", "NickName", "Password" },
                 values: new object[,]

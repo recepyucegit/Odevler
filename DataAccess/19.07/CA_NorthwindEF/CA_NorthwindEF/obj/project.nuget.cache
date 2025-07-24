@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xOGXOIOO0oE=",
+  "dgSpecHash": "+yO6fbNAY64=",
   "success": true,
-  "projectFilePath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
+  "projectFilePath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buse-\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\buse-\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

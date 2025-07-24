@@ -2973,11 +2973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
+      "projectUniqueName": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
       "projectName": "CA_NorthwindEF",
-      "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
+      "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\CA_NorthwindEF.csproj",
       "packagesPath": "C:\\Users\\buse-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\obj\\",
+      "outputPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\19.07\\CA_NorthwindEF\\CA_NorthwindEF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

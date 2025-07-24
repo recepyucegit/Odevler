@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CA_StreetliftingCodeFirst.Migrations
 {
     [DbContext(typeof(StreetliftingContext))]
-    [Migration("20250723062250_Migrations")]
+    [Migration("20250724175410_Migrations")]
     partial class Migrations
     {
         /// <inheritdoc />
@@ -69,6 +69,31 @@ namespace CA_StreetliftingCodeFirst.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Exercises");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BenchPress = "Bench Press güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.",
+                            DeadLift = "Deadlift güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.",
+                            OverHeadPress = "Overhead Press güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.",
+                            PullUp = "Pull Up güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılır.",
+                            Squat = "Squat güçlenme fazında 4-8 Tekrar @8 RPE olarak yapılı."
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Dip = "Dip güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.",
+                            PushUp = "Push Up güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.",
+                            Row = "Row güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır."
+                        },
+                        new
+                        {
+                            Id = 3,
+                            HollowBodyHold = "Hollow Body Hold güçlenme fazında 30-60 sn @9 RPE olarak yapılır.",
+                            LegRaise = "Leg Raise güçlenme fazında 8-12 Tekrar @9 RPE olarak yapılır.",
+                            Plank = "Plank güçlenme fazında 30-60 @9 RPE olarak yapılır."
+                        });
                 });
 
             modelBuilder.Entity("CA_StreetliftingCodeFirst.Models.Entities.Measurament", b =>
@@ -133,6 +158,19 @@ namespace CA_StreetliftingCodeFirst.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Routines");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Core = "Deadlift-Plank-LegRaise",
+                            FullBody = "Deadlift-Squat-BenchPress-PullUp-HollowBodyHold",
+                            Legs = "Squat",
+                            LowerBody = "Squat-Plank",
+                            Pull = "Row- Pullup ",
+                            Push = "OHP-BenchPress",
+                            UpperBody = "Dips-Row-Pushup  "
+                        });
                 });
 
             modelBuilder.Entity("CA_StreetliftingCodeFirst.Models.Entities.RoutineAndExercise", b =>
