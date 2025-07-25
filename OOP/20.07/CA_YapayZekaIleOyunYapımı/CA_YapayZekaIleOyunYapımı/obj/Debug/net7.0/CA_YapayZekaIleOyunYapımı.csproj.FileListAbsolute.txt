@@ -1,0 +1,15 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\bin\Debug\net7.0\CA_YapayZekaIleOyunYapımı.exe
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\bin\Debug\net7.0\CA_YapayZekaIleOyunYapımı.deps.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\bin\Debug\net7.0\CA_YapayZekaIleOyunYapımı.runtimeconfig.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\bin\Debug\net7.0\CA_YapayZekaIleOyunYapımı.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\bin\Debug\net7.0\CA_YapayZekaIleOyunYapımı.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.sourcelink.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\refint\CA_YapayZekaIleOyunYapımı.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\CA_YapayZekaIleOyunYapımı.genruntimeconfig.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\OOP\20.07\CA_YapayZekaIleOyunYapımı\CA_YapayZekaIleOyunYapımı\obj\Debug\net7.0\ref\CA_YapayZekaIleOyunYapımı.dll

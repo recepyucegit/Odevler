@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\20.07\\ca_yapayzekaileoyunyap\u0131m\u0131\\ca_yapayzekaileoyunyap\u0131m\u0131\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44FD66D9-FF24-4BA2-B198-F0AF85CB5A63}|CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131.csproj|solutionrelative:ca_yapayzekaileoyunyap\u0131m\u0131\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Map.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Map.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Map.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Map.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:17:57.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Tile.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Tile.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Tile.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Tile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:17:42.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Monster.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Monster.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Monster.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:16:05.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Player.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Player.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Player.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:15:34.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Character.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Character.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Character.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:15:12.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Game.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Game.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Game.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Game.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:14:15.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Program.cs",
+              "RelativeDocumentMoniker": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Program.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\20.07\\CA_YapayZekaIleOyunYap\u0131m\u0131\\CA_YapayZekaIleOyunYap\u0131m\u0131\\Program.cs",
+              "RelativeToolTip": "CA_YapayZekaIleOyunYap\u0131m\u0131\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:13:53.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
