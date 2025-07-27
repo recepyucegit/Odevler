@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\",
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\entities\\concretes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\entities\\concretes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\repositoryandservice\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\repositoryandservice\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\entities\\concretes\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\entities\\concretes\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\repositoryandservice\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\repositoryandservice\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\entities\\abstract\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\entities\\abstract\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\concretes\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\concretes\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\entities\\abstract\\icandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\entities\\abstract\\icandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\concretes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\concretes\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\abstract\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\abstract\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\dataacsess\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\dataacsess\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\abstract\\icandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\abstract\\icandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\business\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\business\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\oop\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\concretes\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\concretes\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\business\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\business\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,12 +50,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "RecruitmentService.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\RecruitmentService.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\RecruitmentService.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\RecruitmentService.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\RecruitmentService.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Business\\RecruitmentService.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Business\\RecruitmentService.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Business\\RecruitmentService.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Business\\RecruitmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T14:15:29.175Z",
@@ -63,12 +63,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CandidateRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\DataAcsess\\CandidateRepository.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\DataAcsess\\CandidateRepository.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\DataAcsess\\CandidateRepository.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\DataAcsess\\CandidateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T14:14:52.144Z",
@@ -76,12 +76,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Department.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Concretes\\Department.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Department.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Concretes\\Department.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Business\\Department.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Business\\Department.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Business\\Department.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Business\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:58:19.646Z",
@@ -89,12 +89,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Employee.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Concretes\\Employee.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Employee.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Concretes\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Employee.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Employee.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Employee.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:53:12.961Z",
@@ -102,25 +102,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Abstract\\IEmployee.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Abstract\\IEmployee.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Abstract\\IEmployee.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Abstract\\IEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Abstract\\IEmployee.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Entities\\Abstract\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Abstract\\IEmployee.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Entities\\Abstract\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:49:21.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Candidate.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Candidate.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Concretes\\Candidate.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Concretes\\Candidate.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Concretes\\Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Candidate.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Candidate.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Candidate.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Entities\\Concretes\\Candidate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:41:51.755Z",
@@ -128,12 +128,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ICandidate.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Abstract\\ICandidate.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Abstract\\ICandidate.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Abstract\\ICandidate.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Abstract\\ICandidate.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Abstract\\ICandidate.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Entities\\Abstract\\ICandidate.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Entities\\Abstract\\ICandidate.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Entities\\Abstract\\ICandidate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:40:52.087Z",
@@ -141,16 +141,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Program.cs",
-              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Program.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Program.cs",
-              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\Presentation\\Program.cs",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:38:00.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T13:38:00.538Z"
             }
           ]
         }

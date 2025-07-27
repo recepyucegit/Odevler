@@ -1,13 +1,12 @@
-﻿using CA_InsanKaynakları.Abstract;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CA_InsanKaynakları.Concretes;
-using CA_InsanKaynakları.Abstract;
+using CA_InsanKaynakları.Entities.Abstract;
 
-namespace CA_InsanKaynakları.RepositoryAndService
+namespace CA_InsanKaynakları.Business
 {
     public static class RecruitmentService
     {

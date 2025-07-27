@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CA_InsanKaynakları")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b3fe4f20eec3f5344680583b365d724360b33d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5866ef3294cd0dfaddab719d14b3e4d2a9b90e84")]
 [assembly: System.Reflection.AssemblyProductAttribute("CA_InsanKaynakları")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CA_InsanKaynakları")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
