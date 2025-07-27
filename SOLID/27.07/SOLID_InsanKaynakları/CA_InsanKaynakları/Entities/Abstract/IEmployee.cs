@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CA_InsanKaynakları.Abstract
+namespace CA_InsanKaynakları.Entities.Abstract
 {
     public interface IEmployee
     {

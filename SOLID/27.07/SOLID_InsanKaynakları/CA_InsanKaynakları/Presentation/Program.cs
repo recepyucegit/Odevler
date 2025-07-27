@@ -1,4 +1,5 @@
-﻿using CA_InsanKaynakları.RepositoryAndService;
+﻿using CA_InsanKaynakları.Business;
+using CA_InsanKaynakları.RepositoryAndService;
 using System;
 
 class Program
