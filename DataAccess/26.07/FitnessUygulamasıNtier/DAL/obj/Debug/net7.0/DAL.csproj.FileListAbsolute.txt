@@ -1,0 +1,6 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\DAL\obj\Debug\net7.0\DAL.sourcelink.json

@@ -1,0 +1,6 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\BLL\obj\Debug\net7.0\BLL.sourcelink.json

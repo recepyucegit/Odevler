@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CA_StreetliftingCodeFirst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be1c67720c6dd818bb62525a5b701a3f61a49bcb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b3fe4f20eec3f5344680583b365d724360b33d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CA_StreetliftingCodeFirst")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CA_StreetliftingCodeFirst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

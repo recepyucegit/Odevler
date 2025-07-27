@@ -1,0 +1,6 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\DataAccess\26.07\FitnessUygulamasıNtier\Presentation\obj\Debug\net7.0\Presentation.sourcelink.json
