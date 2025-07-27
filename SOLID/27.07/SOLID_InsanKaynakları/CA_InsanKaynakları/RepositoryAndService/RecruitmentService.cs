@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CA_InsanKaynakları.Concretes;
 using CA_InsanKaynakları.Abstract;
+using CA_InsanKaynakları.Entities.Concretes;
 
 namespace CA_InsanKaynakları.RepositoryAndService
 {
@@ -15,9 +15,9 @@ namespace CA_InsanKaynakları.RepositoryAndService
         {
             return new List<IEmployee>
         {
-            Department.Hire(candidates[0], "Muhasebe"),
-            Department.Hire(candidates[1], "Bilgi İşlem"),
-            Department.Hire(candidates[2], "Satış Pazarlama")
+            DepartmentFactory.Hire(candidates[0], "Muhasebe"),
+            DepartmentFactory.Hire(candidates[1], "Bilgi İşlem"),
+            DepartmentFactory.Hire(candidates[2], "Satış Pazarlama")
         };
         }
     }

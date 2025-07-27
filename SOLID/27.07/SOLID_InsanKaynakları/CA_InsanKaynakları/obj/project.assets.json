@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+      "projectUniqueName": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
       "projectName": "CA_InsanKaynakları",
-      "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+      "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
       "packagesPath": "C:\\Users\\buse-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\OOP\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\obj\\",
+      "outputPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
