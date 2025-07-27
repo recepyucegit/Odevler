@@ -1,0 +1,16 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\bin\Debug\net7.0\Entities.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\bin\Debug\net7.0\Entities.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.sourcelink.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.csproj.Up2Date
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\DAL\obj\Debug\net7.0\ref\DAL.dll

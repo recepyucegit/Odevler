@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\",
   "Documents": [
     {
@@ -33,6 +34,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\desktop\\odevleryedek\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\business\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\business\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\solid_insankaynaklar\u0131\\ca_insankaynaklar\u0131\\repositoryandservice\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE868D63-69D6-405C-8EC0-94472D32CC54}|CA_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131.csproj|solutionrelative:ca_insankaynaklar\u0131\\repositoryandservice\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 03b9a9fbbcdc0fb8928c71c0d28e73f9e7654116
     }
   ],
   "DocumentGroupContainers": [
@@ -42,6 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -150,6 +159,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T13:38:00.538Z"
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
+              "RelativeDocumentMoniker": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynaklar\u0131\\CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs*",
+              "RelativeToolTip": "CA_InsanKaynaklar\u0131\\RepositoryAndService\\CandidateRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:30:37.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 03b9a9fbbcdc0fb8928c71c0d28e73f9e7654116
             }
           ]
         }

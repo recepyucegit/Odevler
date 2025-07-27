@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "KfGLhmZpCNg=",
   "success": true,
   "projectFilePath": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+=======
+  "dgSpecHash": "ngXWRlku7Bg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+>>>>>>> 03b9a9fbbcdc0fb8928c71c0d28e73f9e7654116
   "expectedPackageFiles": [],
   "logs": []
 }

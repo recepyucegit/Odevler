@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
         "packagesPath": "C:\\Users\\buse-\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\buse-\\OneDrive\\Desktop\\OdevlerYedek\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\obj\\",
+=======
+    "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+        "projectName": "CA_InsanKaynakları",
+        "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\CA_InsanKaynakları.csproj",
+        "packagesPath": "C:\\Users\\buse-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\SOLID_InsanKaynakları\\CA_InsanKaynakları\\obj\\",
+>>>>>>> 03b9a9fbbcdc0fb8928c71c0d28e73f9e7654116
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
