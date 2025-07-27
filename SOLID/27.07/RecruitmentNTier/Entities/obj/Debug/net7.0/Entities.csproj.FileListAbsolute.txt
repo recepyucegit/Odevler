@@ -1,0 +1,12 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\bin\Debug\net7.0\Entities.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\27.07\RecruitmentNTier\Entities\obj\Debug\net7.0\ref\Entities.dll
