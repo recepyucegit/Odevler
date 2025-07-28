@@ -6,7 +6,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DAL": "1.0.0"
+          "DAL": "1.0.0",
+          "Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BLL.dll": {}
@@ -59,7 +60,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BLL >= 1.0.0"
+      "BLL >= 1.0.0",
+      "DAL >= 1.0.0",
+      "Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -96,6 +99,12 @@
           "projectReferences": {
             "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\BLL\\BLL.csproj": {
               "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\Entities\\Entities.csproj"
             }
           }
         }

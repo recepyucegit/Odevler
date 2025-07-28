@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\recruitmentntier\\bll\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|solutionrelative:bll\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93CDA7A4-4A37-4DCA-8E54-72DAC5055965}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\recruitmentntier\\dal\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CDA7A4-4A37-4DCA-8E54-72DAC5055965}|DAL\\DAL.csproj|solutionrelative:dal\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\recruitmentntier\\bll\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|solutionrelative:bll\\recruitmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\recruitmentntier\\bll\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56318F5D-B413-421F-8BA1-B67F730A2530}|BLL\\BLL.csproj|solutionrelative:bll\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F072682-B246-43DC-B39F-AF0EBB7983D4}|Presentation\\Presentation.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\27.07\\recruitmentntier\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,25 +42,24 @@
               "RelativeToolTip": "Presentation\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:08:15.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T15:08:15.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\BLL\\Department.cs",
               "RelativeDocumentMoniker": "BLL\\Department.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\BLL\\Department.cs",
               "RelativeToolTip": "BLL\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T15:07:34.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RecruitmentService.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\BLL\\RecruitmentService.cs",
               "RelativeDocumentMoniker": "BLL\\RecruitmentService.cs",
@@ -68,12 +67,11 @@
               "RelativeToolTip": "BLL\\RecruitmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:06:20.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T15:06:20.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CandidateRepository.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\27.07\\RecruitmentNTier\\DAL\\CandidateRepository.cs",
               "RelativeDocumentMoniker": "DAL\\CandidateRepository.cs",

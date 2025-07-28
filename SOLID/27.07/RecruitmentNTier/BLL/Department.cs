@@ -1,10 +1,10 @@
 
-﻿using CA_InsanKaynakları.Entities.Abstract;
+
 
 ﻿
 using Entities.Abstract;
-using Entities.Concretes;
->>>>>>>> 03b9a9fbbcdc0fb8928c71c0d28e73f9e7654116:SOLID/27.07/RecruitmentNTier/BLL/Department.cs
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
