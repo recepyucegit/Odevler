@@ -1,6 +1,6 @@
-<<<<<<<< HEAD:SOLID/27.07/SOLID_InsanKaynakları/CA_InsanKaynakları/Business/Department.cs
+
 ﻿using CA_InsanKaynakları.Entities.Abstract;
-========
+
 ﻿
 using Entities.Abstract;
 using Entities.Concretes;
