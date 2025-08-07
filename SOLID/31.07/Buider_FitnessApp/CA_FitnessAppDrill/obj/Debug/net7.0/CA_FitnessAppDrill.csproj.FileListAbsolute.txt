@@ -1,0 +1,15 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.sourcelink.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\bin\Debug\net7.0\CA_FitnessAppDrill.exe
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\bin\Debug\net7.0\CA_FitnessAppDrill.deps.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\bin\Debug\net7.0\CA_FitnessAppDrill.runtimeconfig.json
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\bin\Debug\net7.0\CA_FitnessAppDrill.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\bin\Debug\net7.0\CA_FitnessAppDrill.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\refint\CA_FitnessAppDrill.dll
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.pdb
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\CA_FitnessAppDrill.genruntimeconfig.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\Buider_FitnessApp\CA_FitnessAppDrill\obj\Debug\net7.0\ref\CA_FitnessAppDrill.dll

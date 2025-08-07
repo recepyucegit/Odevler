@@ -3,36 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\entities\\measurament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\entities\\measurament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\entities\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\entities\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\migrations\\20250724175410_migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\migrations\\20250724175410_migrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\context\\streetliftingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\context\\streetliftingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\seeds\\routineseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\seeds\\routineseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\seeds\\exerciseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\seeds\\exerciseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\entities\\routine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\entities\\routine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\dataaccess\\20.07\\ca_streetliftingcodefirst\\ca_streetliftingcodefirst\\models\\entities\\routineandexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{416F3BCD-0E0B-4C3A-8919-267518D6766B}|CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst.csproj|solutionrelative:ca_streetliftingcodefirst\\models\\entities\\routineandexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\buse-\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.20\\tools\\about_EntityFrameworkCore.help.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,101 +25,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250724175410_Migrations.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Migrations\\20250724175410_Migrations.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Migrations\\20250724175410_Migrations.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Migrations\\20250724175410_Migrations.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Migrations\\20250724175410_Migrations.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:54:10.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoutineSeedData.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Seeds\\RoutineSeedData.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Seeds\\RoutineSeedData.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Seeds\\RoutineSeedData.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Seeds\\RoutineSeedData.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:47:36.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExerciseSeedData.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Seeds\\ExerciseSeedData.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Seeds\\ExerciseSeedData.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Seeds\\ExerciseSeedData.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Seeds\\ExerciseSeedData.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T17:16:33.738Z"
+              "DocumentIndex": 1,
+              "Title": "about_EntityFrameworkCore.help.txt",
+              "DocumentMoniker": "C:\\Users\\buse-\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.20\\tools\\about_EntityFrameworkCore.help.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.20\\tools\\about_EntityFrameworkCore.help.txt",
+              "ToolTip": "C:\\Users\\buse-\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.20\\tools\\about_EntityFrameworkCore.help.txt [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.20\\tools\\about_EntityFrameworkCore.help.txt [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-25T18:50:35.566Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Measurament.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Measurament.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Entities\\Measurament.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Measurament.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Entities\\Measurament.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:48:15.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoutineAndExercise.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\RoutineAndExercise.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Entities\\RoutineAndExercise.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\RoutineAndExercise.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Entities\\RoutineAndExercise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:44:56.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "StreetliftingContext.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Context\\StreetliftingContext.cs",
               "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Context\\StreetliftingContext.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Context\\StreetliftingContext.cs",
               "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Context\\StreetliftingContext.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwEgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:04:57.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Routine.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Routine.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Entities\\Routine.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Routine.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Entities\\Routine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:23:35.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Exercise.cs",
-              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Exercise.cs",
-              "RelativeDocumentMoniker": "CA_StreetliftingCodeFirst\\Models\\Entities\\Exercise.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\DataAccess\\20.07\\CA_StreetliftingCodeFirst\\CA_StreetliftingCodeFirst\\Models\\Entities\\Exercise.cs",
-              "RelativeToolTip": "CA_StreetliftingCodeFirst\\Models\\Entities\\Exercise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:23:12.642Z",
+              "WhenOpened": "2025-07-25T18:21:46.719Z",
               "EditorCaption": ""
             }
           ]

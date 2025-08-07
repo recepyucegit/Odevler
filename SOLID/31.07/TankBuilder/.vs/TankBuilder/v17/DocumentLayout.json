@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\31.07\\tankbuilder\\ca_tankbuilder\\abstract\\itank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|solutionrelative:ca_tankbuilder\\abstract\\itank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\31.07\\tankbuilder\\ca_tankbuilder\\models\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|solutionrelative:ca_tankbuilder\\models\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\31.07\\tankbuilder\\ca_tankbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74313DBE-0445-4D95-80E3-91AC411304B1}|CA_TankBuilder\\CA_TankBuilder.csproj|solutionrelative:ca_tankbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITank.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Abstract\\ITank.cs",
+              "RelativeDocumentMoniker": "CA_TankBuilder\\Abstract\\ITank.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Abstract\\ITank.cs",
+              "RelativeToolTip": "CA_TankBuilder\\Abstract\\ITank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:36:38.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tank.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Models\\Tank.cs",
+              "RelativeDocumentMoniker": "CA_TankBuilder\\Models\\Tank.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Models\\Tank.cs",
+              "RelativeToolTip": "CA_TankBuilder\\Models\\Tank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:35:35.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Program.cs",
+              "RelativeDocumentMoniker": "CA_TankBuilder\\Program.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\TankBuilder\\CA_TankBuilder\\Program.cs",
+              "RelativeToolTip": "CA_TankBuilder\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:35:10.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
