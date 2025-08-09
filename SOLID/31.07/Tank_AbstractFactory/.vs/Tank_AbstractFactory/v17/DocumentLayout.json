@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\Tank_AbstractFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}|CA_TankAbstractFactory\\CA_TankAbstractFactory.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\solid\\31.07\\tank_abstractfactory\\ca_tankabstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}|CA_TankAbstractFactory\\CA_TankAbstractFactory.csproj|solutionrelative:ca_tankabstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\Tank_AbstractFactory\\CA_TankAbstractFactory\\Program.cs",
+              "RelativeDocumentMoniker": "CA_TankAbstractFactory\\Program.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\SOLID\\31.07\\Tank_AbstractFactory\\CA_TankAbstractFactory\\Program.cs",
+              "RelativeToolTip": "CA_TankAbstractFactory\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T19:31:53.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

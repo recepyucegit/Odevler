@@ -1,0 +1,7 @@
+wwwroot\DataBase\SqlStreetlifting.sql
+wwwroot\Giris.html
+wwwroot\images\Pullup.webp
+wwwroot\images\Squat.jpeg
+wwwroot\StreetliftingGorsel.html
+wwwroot\Tables.html
+wwwroot\Yonlendirme.html

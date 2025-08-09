@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA_TankAbstractFactory", "CA_TankAbstractFactory\CA_TankAbstractFactory.csproj", "{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4928B38-1FF3-42DF-8E52-28CB192BEDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8560CBA3-F36C-4BCA-A6A4-5FFEECD9DF75}
+	EndGlobalSection
+EndGlobal

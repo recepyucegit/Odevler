@@ -1,0 +1,5 @@
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\TankBuilder\CA_TankBuilder\obj\Debug\net7.0\CA_TankBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\TankBuilder\CA_TankBuilder\obj\Debug\net7.0\CA_TankBuilder.AssemblyInfoInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\TankBuilder\CA_TankBuilder\obj\Debug\net7.0\CA_TankBuilder.AssemblyInfo.cs
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\TankBuilder\CA_TankBuilder\obj\Debug\net7.0\CA_TankBuilder.csproj.CoreCompileInputs.cache
+C:\Users\buse-\OneDrive\Belgeler\GitHub\Odevler\SOLID\31.07\TankBuilder\CA_TankBuilder\obj\Debug\net7.0\CA_TankBuilder.sourcelink.json
