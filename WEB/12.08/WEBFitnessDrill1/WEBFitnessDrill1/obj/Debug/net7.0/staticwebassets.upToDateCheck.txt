@@ -1,0 +1,7 @@
+wwwroot\bootstrap\bootstrap.css
+wwwroot\images\DipsBar.jpeg
+wwwroot\images\HalterBarı.jpeg
+wwwroot\images\imageForHero.png
+wwwroot\images\Pullupbar.jpeg
+wwwroot\images\stoic.png
+wwwroot\index.html
