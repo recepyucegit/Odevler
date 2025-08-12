@@ -1,0 +1,4 @@
+wwwroot\bootstrap\bootstrap.css
+wwwroot\images\imageForHero.png
+wwwroot\images\stoic.png
+wwwroot\index.html
