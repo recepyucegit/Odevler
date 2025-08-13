@@ -4,21 +4,21 @@
     <meta charset="utf-8" />
     <title>StoicWorkoutHomePage</title>
     <link href="bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/myStyles.css" rel="stylesheet" />
 </head>
 <body>
+
     <!-- Anasayfa Header -->
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/images/stoic.png" class="d-inline-flex link-body-emphasis text-decoration-none">
-                <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-                    <use xlink:href="images/stoic.png"></use>
-                </svg>
+            <a href="/" class="d-inline-flex align-items-center link-body-emphasis text-decoration-none">
+                <img src="images/stoic.png" alt="Stoic Logo" height="50" class="logo-img">
             </a>
         </div> <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li>
                 <a href="#" class="nav-link px-2 link-secondary">Anasayfa</a>
             </li>
-            <li><a href="#" class="nav-link px-2">Ürünler</a></li>
+            <li><a href="/pages/Products.html" class="nav-link px-2">Ürünler</a></li>
             <li><a href="#" class="nav-link px-2">Rehberler</a></li>
 
         </ul>
@@ -30,63 +30,63 @@
 
     <!-- Anasayfa Hero -->
 
-    <div class="px-4 pt-2 my-3 text-center border-bottom">
-        <h1 class="display-4 fw-bold text-body-emphasis">Ekipmanlarını Diz ve İdmana Başla </h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">
-                Gerekli ekipmanları senin için derledik!
-            </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Başlangıç için</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">İleri seviye için</button>
-            </div>
-        </div> <div class="overflow-hidden" style="max-height: 30vh;">
-            <div class="container px-5">
 
+    <div class="hero-section text-white d-flex align-items-center justify-content-center text-center" style="
+    background-image: url('/images/imageForHero.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Ekipmanlarını Diz ve İdmana Başla</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Gerekli ekipmanları senin için derledik!</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Başlangıç için</button>
+                    <button type="button" class="btn btn-outline-light btn-lg px-4">İleri seviye için</button>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Corousel -->
     <div class="row">
-        <div class="col-lg-4">
-            <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg> <h2 class="fw-normal">Barfik Barları</h2>
-            <p> Barfiks de uzmanlaşman  için gerekli tüm ekipmanlar </p>
+        <div class="col-lg-4 text-center">
+            <img src="/images/Pullupbar.jpeg" class="rounded-circle d-block mx-auto mb-3" width="140" height="140" alt="Barfik Barı">
+            <h2 class="fw-normal">Barfik Barları</h2>
+            <p>Barfiks de uzmanlaşman için gerekli tüm ekipmanlar</p>
             <p><a class="btn btn-secondary" href="#">Detayları görüntüle »</a></p>
-        </div><!-- /.col-lg-4 --> <div class="col-lg-4">
-            <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg> <h2 class="fw-normal">Dip barları, Paralel barlar </h2> <p>Dips, push up da uzmanlaşman için gerekli tüm ekipmanlar</p>
+        </div><!-- /.col-lg-4 --> <div class="col-lg-4 text-center">
+            <img src="/images/DipsBar.jpeg" class="rounded-circle d-block mx-auto mb-3" width="140" height="140" alt="DipsBarı">
+            <h2 class="fw-normal">Dips ve Paralel barlar</h2>
+            <p>Dips ve diğer itiş haraketleri için uzmanlaşman için gerekli tüm ekipmanlar</p>
             <p><a class="btn btn-secondary" href="#">Detayları görüntüle »</a></p>
-        </div><!-- /.col-lg-4 --> <div class="col-lg-4">
-            <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg> <h2 class="fw-normal">Halter barları</h2>
-            <p>Squat, Deadlift, Bench press, Row için en sağlam barlar</p> <p><a class="btn btn-secondary" href="#">Detayları görüntüle »</a></p>
-        </div><!-- /.col-lg-4 -->
-    </div>
+        </div><!-- /.col-lg-4 --> <div class="col-lg-4 text-center">
+            <img src="/images/HalterBarı.jpeg" class="rounded-circle d-block mx-auto mb-3" width="140" height="140" alt="Halter Barı">
+            <h2 class="fw-normal">HalterBarları</h2>
+            <p>PowerLifting de uzmanlaşman için gerekli tüm ekipmanlar</p>
+            <p><a class="btn btn-secondary" href="#">Detayları görüntüle »</a></p>
+        </div>
 
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-body-secondary">Stoic Workout</p>
-            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
-                <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
-            </a> <ul class="nav col-md-4 justify-content-end">
-                
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hesabım</a></li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">İletişim</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">SSS</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
-            </ul>
-        </footer>
-    </div>
+        <!-- Footer -->
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary">Stoic Workout</p>
+                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+                    <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+                </a> <ul class="nav col-md-4 justify-content-end">
+
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hesabım</a></li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2 text-body-secondary">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link px-2 text-body-secondary">SSS</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+                </ul>
+            </footer>
+        </div>
 
 
 

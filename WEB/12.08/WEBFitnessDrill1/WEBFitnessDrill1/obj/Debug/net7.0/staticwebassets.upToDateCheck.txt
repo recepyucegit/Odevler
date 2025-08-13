@@ -1,7 +1,15 @@
 wwwroot\bootstrap\bootstrap.css
+wwwroot\css\myStyles.css
+wwwroot\images\dipbarForCage.jpeg
 wwwroot\images\DipsBar.jpeg
+wwwroot\images\freeDipBars.jpeg
 wwwroot\images\HalterBarı.jpeg
 wwwroot\images\imageForHero.png
 wwwroot\images\Pullupbar.jpeg
+wwwroot\images\pullUpBarDoor.jpeg
+wwwroot\images\pullUpBarWall.jpeg
+wwwroot\images\standingDipBars.jpeg
+wwwroot\images\standingPullupBar.jpeg
 wwwroot\images\stoic.png
 wwwroot\index.html
+wwwroot\pages\Products.html
