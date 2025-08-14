@@ -11,6 +11,6 @@ wwwroot\images\pullUpBarWall.jpeg
 wwwroot\images\standingDipBars.jpeg
 wwwroot\images\standingPullupBar.jpeg
 wwwroot\images\stoic.png
-wwwroot\index.html
 wwwroot\pages\Products.html
+wwwroot\index.html
 wwwroot\pages\Guides.html
