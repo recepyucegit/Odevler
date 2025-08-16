@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoicWorkout12.08")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc82230d5141a105e1279153ddd9e4c16d1a11ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa14a2afa7c0d148591a64706ea847e98fb4131")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoicWorkout12.08")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoicWorkout12.08")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
