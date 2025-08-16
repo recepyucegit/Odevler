@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\javascript\\webfitnessdrill1\\webfitnessdrill1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|solutionrelative:webfitnessdrill1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\javascript\\webfitnessdrill1\\webfitnessdrill1\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|solutionrelative:webfitnessdrill1\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\javascript\\webfitnessdrill1\\webfitnessdrill1\\wwwroot\\pages\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|solutionrelative:webfitnessdrill1\\wwwroot\\pages\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\javascript\\webfitnessdrill1\\webfitnessdrill1\\wwwroot\\pages\\guides.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{571A704D-D51A-42E7-B08A-EDF611DE0AD9}|WEBFitnessDrill1\\WEBFitnessDrill1.csproj|solutionrelative:webfitnessdrill1\\wwwroot\\pages\\guides.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\js\\index.js",
+              "RelativeDocumentMoniker": "WEBFitnessDrill1\\wwwroot\\js\\index.js",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\js\\index.js",
+              "RelativeToolTip": "WEBFitnessDrill1\\wwwroot\\js\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-16T14:36:45.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.html",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\pages\\Products.html",
+              "RelativeDocumentMoniker": "WEBFitnessDrill1\\wwwroot\\pages\\Products.html",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\pages\\Products.html",
+              "RelativeToolTip": "WEBFitnessDrill1\\wwwroot\\pages\\Products.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-16T14:35:28.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guides.html",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\pages\\Guides.html",
+              "RelativeDocumentMoniker": "WEBFitnessDrill1\\wwwroot\\pages\\Guides.html",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\pages\\Guides.html",
+              "RelativeToolTip": "WEBFitnessDrill1\\wwwroot\\pages\\Guides.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-16T14:35:23.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WEBFitnessDrill1\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\JavaScript\\WEBFitnessDrill1\\WEBFitnessDrill1\\wwwroot\\index.html",
+              "RelativeToolTip": "WEBFitnessDrill1\\wwwroot\\index.html",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-16T14:34:36.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
