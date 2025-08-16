@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEBFitnessDrill1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20cd9eb299f705b95daba9ff6b746e80ac037966")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eae88c9774140f946bc261308dcf978285413bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEBFitnessDrill1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEBFitnessDrill1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,7 @@ wwwroot\images\pullUpBarWall.jpeg
 wwwroot\images\standingDipBars.jpeg
 wwwroot\images\standingPullupBar.jpeg
 wwwroot\images\stoic.png
+wwwroot\index.html
 wwwroot\lib\bootstrap\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\css\bootstrap-grid.min.css
@@ -147,5 +148,6 @@ wwwroot\lib\bootstrap\scss\_variables-dark.scss
 wwwroot\lib\bootstrap\scss\_variables.scss
 wwwroot\pages\Guides.html
 wwwroot\pages\Products.html
-wwwroot\index.html
+wwwroot\pages\Starting.html
+wwwroot\Deneme.html
 wwwroot\js\index.js
