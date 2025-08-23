@@ -1,0 +1,58 @@
+﻿@{
+    // string productName = "chai";
+    // string unitPrice = "15";
+    // string categoryName = "Beverages";
+
+
+    // List<MVC_Intro.Models.Product> productList = new List<MVC_Intro.Models.Product>
+    // {
+    //     new MVC_Intro.Models.Product{
+    //         ID=1,
+    //         ProductName="Chai",
+    //         UnitPrice=15,
+    //         CategoryName="Beverages"
+    //     },
+    //     new MVC_Intro.Models.Product{
+    //         ID=2,
+    //         ProductName="Chang",
+    //         UnitPrice=15,
+    //         CategoryName="Beverages"
+    //     },
+    //     new MVC_Intro.Models.Product{
+    //         ID=3,
+    //         ProductName="Ikura",
+    //         UnitPrice=15,
+    //         CategoryName="Beverages"
+    //     }
+    // };
+}
+
+@model List<MVC_Intro.Models.Product>
+
+
+<h1>burada ürünler listelenecek.</h1>
+
+@* <ul>
+    <li>Ürün Ad:@productName Ürün Fiyat:@unitPrice Kategori:@categoryName</li>
+</ul> *@
+
+@* <ul>
+    @foreach (MVC_Intro.Models.Product product in productList)
+    {
+        <li>Ürün Ad:@product.ProductName Ürün Fiyat:@product.UnitPrice Kategori:@product.CategoryName</li>
+    }
+
+</ul> *@
+
+@if(Model.Count==0){
+    <h2>Herhangi bir ürün eklenmemiş. Ürün eklemek için aşağıdaki linki kullanabilirsiniz.
+    </h2>
+    <a href="/Product/Create">Ürün Ekle</a>
+}else{
+    <ul>
+        @foreach (MVC_Intro.Models.Product product in Model)
+        {
+            <li>Ürün Ad:@product.ProductName Ürün Fiyat:@product.UnitPrice Kategori:@product.CategoryName</li>
+        }
+    </ul>
+}
