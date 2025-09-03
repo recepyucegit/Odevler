@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC_CodeFirst_StoicWorkout")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73da6c06698746528c7a7f8e7d1a8a3a863f7600")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC_CodeFirst_StoicWorkout")]
