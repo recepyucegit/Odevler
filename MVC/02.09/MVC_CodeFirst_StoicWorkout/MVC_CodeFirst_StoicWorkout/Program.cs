@@ -1,7 +1,16 @@
+using MVC_CodeFirst_StoicWorkout.Repositories.Abstract;
+using MVC_CodeFirst_StoicWorkout.Repositories.Concretes;
+using MVC_CodeFirst_StoicWorkout.Services.Abstract;
+using MVC_CodeFirst_StoicWorkout.Services.Concretes;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IExerciseService, ExerciseService>();
+builder.Services.AddScoped<IExcerciseRepository, ExcerciseRepository>();
+
+
 
 var app = builder.Build();
 

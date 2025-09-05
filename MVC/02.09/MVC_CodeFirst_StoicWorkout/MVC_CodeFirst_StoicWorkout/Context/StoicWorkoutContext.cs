@@ -6,7 +6,7 @@ namespace MVC_CodeFirst_StoicWorkout.Context
     public class StoicWorkoutContext:DbContext
     {
         public DbSet<Exercise> Exercises { get; set; }
-        public DbSet<Routine> Routines { get; set; }
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

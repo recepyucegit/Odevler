@@ -1,0 +1,47 @@
+﻿@model ExerciseCreateViewModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <form method="post">
+            <div>
+                <label>ExerciseName</label>
+                <input name="Exercise" class="form-control" />
+            </div>
+            <div>
+                <label>RepRange</label>
+                <input name="RepRange" class="form-control" />
+            </div>
+            <div>
+                <label>Sets</label>
+                <input name="Set" class="form-control" />
+            </div>
+            <div>
+                <label>RestTime</label>
+                <input name="RestTime" class="form-control" />
+            </div>
+            <div>
+                <label>Diffuculty</label>
+                <input name="Diffucult" class="form-control" />
+            </div>
+            <div>
+                <label>Equipment</label>
+                <input name="Equipment" class="form-control" />
+            </div>
+            <div>
+                <label>TargetMuscleGroup</label>
+                <input name="MuscleGroup" class="form-control" />
+            </div>
+            <button type="submit">Oluştur</button>
+        </form>
+
+
+    </div>
+</div>
+

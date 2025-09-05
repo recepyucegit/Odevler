@@ -8,7 +8,7 @@ using MVC_CodeFirst_StoicWorkout.Services.Abstract;
 using MVC_CodeFirst_StoicWorkout.Repositories.Abstract;
 using MVC_CodeFirst_StoicWorkout.Repositories.Concretes;
 using MVC_CodeFirst_StoicWorkout.Models.Entities;
-
+using MVC_CodeFirst_StoicWorkout.Models.ViewModels.ExerciseViewModels;
 
 namespace MVC_CodeFirst_StoicWorkout.Services.Concretes
 
@@ -23,7 +23,7 @@ namespace MVC_CodeFirst_StoicWorkout.Services.Concretes
             _exerciseRepository = exerciseRepository;
         }
 
-        public MessageStatus CreateExercise(ExerciseListViewModel createViewModel)
+        public MessageStatus CreateExercise(ExerciseCreateViewModel createViewModel)
         {
             try
             {
@@ -52,7 +52,18 @@ namespace MVC_CodeFirst_StoicWorkout.Services.Concretes
 
         public List<ExerciseListViewModel> GetAllExercises()
         {
-            throw new NotImplementedException();
+            var exerciseListModels = _exerciseRepository.List().Select(e => new ExerciseListViewModel
+            {
+                ID = e.ID,
+                ExerciseName = e.ExerciseName,
+                RepRange = e.RepRange,
+                Sets = e.Sets,
+                RestTime = e.RestTime,
+                Difficulty = e.Difficulty,
+                Equipment = e.Equipment,
+                TargetMuscleGroup = e.TargetMuscleGroup
+            }).ToList();
+            return exerciseListModels;
         }
     }
 }
