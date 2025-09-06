@@ -29,6 +29,7 @@ namespace MVC_CodeFirst_StoicWorkout.Services.Concretes
             {
                 Exercise exercise = new Exercise
                 {
+                    
                     ExerciseName = createViewModel.ExerciseName,
                     RepRange = createViewModel.RepRange,
                     Sets = createViewModel.Sets,

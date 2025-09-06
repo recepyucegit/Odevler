@@ -2,6 +2,7 @@
 {
     public class ExerciseCreateViewModel
     {
+
         public string ExerciseName { get; set; }
         public string RepRange { get; set; }
         public string Sets { get; set; }
