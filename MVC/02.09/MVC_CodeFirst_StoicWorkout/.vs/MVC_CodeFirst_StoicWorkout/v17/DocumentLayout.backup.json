@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\mvc\\02.09\\mvc_codefirst_stoicworkout\\mvc_codefirst_stoicworkout\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|solutionrelative:mvc_codefirst_stoicworkout\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\mvc\\02.09\\mvc_codefirst_stoicworkout\\mvc_codefirst_stoicworkout\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|solutionrelative:mvc_codefirst_stoicworkout\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\mvc\\02.09\\mvc_codefirst_stoicworkout\\mvc_codefirst_stoicworkout\\models\\viewmodels\\exerciseviewmodels\\exerciselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|solutionrelative:mvc_codefirst_stoicworkout\\models\\viewmodels\\exerciseviewmodels\\exerciselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\mvc\\02.09\\mvc_codefirst_stoicworkout\\mvc_codefirst_stoicworkout\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|solutionrelative:mvc_codefirst_stoicworkout\\controllers\\exercisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BE7BB93-788B-4ED9-BA2C-064DDED26BAC}|MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\mvc\\02.09\\mvc_codefirst_stoicworkout\\mvc_codefirst_stoicworkout\\services\\abstract\\iexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Views\\Shared\\_MessagePartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T19:55:48.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T19:55:48.542Z"
             },
             {
               "$type": "Document",
@@ -95,12 +94,11 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T08:27:38.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:27:38.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Create.cshtml",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Create.cshtml",
@@ -108,12 +106,11 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T08:25:54.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:25:54.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Index.cshtml",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Views\\Exercise\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T08:23:17.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:23:17.343Z"
             },
             {
               "$type": "Document",
@@ -138,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ExerciseListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseListViewModel.cs",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseListViewModel.cs",
@@ -146,21 +142,19 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseListViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:02:16.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:02:16.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ExerciseCreateViewModel.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs*",
-              "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs*",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs",
+              "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Models\\ViewModels\\ExerciseViewModels\\ExerciseCreateViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:01:58.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:01:58.341Z"
             },
             {
               "$type": "Document",
@@ -172,8 +166,7 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Services\\Abstract\\IExerciseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T08:00:48.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T08:00:48.047Z"
             },
             {
               "$type": "Document",
@@ -185,34 +178,32 @@
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Context\\StoicWorkoutContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T07:57:22.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T07:57:22.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ExerciseController.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Controllers\\ExerciseController.cs",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Controllers\\ExerciseController.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Controllers\\ExerciseController.cs",
               "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Controllers\\ExerciseController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T07:51:32.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExerciseService.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs",
               "RelativeDocumentMoniker": "MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs",
-              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs*",
-              "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs*",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\MVC\\02.09\\MVC_CodeFirst_StoicWorkout\\MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs",
+              "RelativeToolTip": "MVC_CodeFirst_StoicWorkout\\Services\\Concretes\\ExerciseService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T07:47:19.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T07:47:19.19Z"
             }
           ]
         }
