@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,9 @@ namespace DAL.Entities.Abstract
         public T MasterId { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
-
+        public string ComputerName { get; set; }
+        public string UpdatedComputerName { get; set; }
+        public string IpAddress { get; set; }
+        public DataStatus Status { get; set; }
     }
 }
