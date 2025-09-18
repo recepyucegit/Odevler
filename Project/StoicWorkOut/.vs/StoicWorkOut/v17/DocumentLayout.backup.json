@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\context\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\context\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\entities\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\concretes\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\entities\\abstracts\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\abstracts\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\entities\\abstracts\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\abstracts\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\enums\\datastatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\stoicworkout\\dal\\entities\\abstracts\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5D58F4-D61F-4064-B318-3BD05A154957}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\abstracts\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Concretes\\Category.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Concretes\\Category.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Concretes\\Category.cs",
+              "RelativeToolTip": "DAL\\Entities\\Concretes\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:23:49.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Context\\ProjectContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\ProjectContext.cs",
+              "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Context\\ProjectContext.cs",
+              "RelativeToolTip": "DAL\\Context\\ProjectContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:57:12.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DataStatus.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Enums\\DataStatus.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Enums\\DataStatus.cs",
@@ -39,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Abstracts\\IEntity.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Abstracts\\IEntity.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Abstracts\\IEntity.cs",
               "RelativeToolTip": "DAL\\Entities\\Abstracts\\IEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T05:46:22.239Z",
               "EditorCaption": ""
@@ -58,9 +92,10 @@
               "RelativeDocumentMoniker": "DAL\\Entities\\Abstracts\\BaseEntity.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Entities\\Abstracts\\BaseEntity.cs",
               "RelativeToolTip": "DAL\\Entities\\Abstracts\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T05:45:57.453Z"
+              "WhenOpened": "2025-09-16T05:45:57.453Z",
+              "EditorCaption": ""
             }
           ]
         }
