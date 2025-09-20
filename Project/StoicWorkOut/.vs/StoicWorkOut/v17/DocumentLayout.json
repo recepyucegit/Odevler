@@ -42,8 +42,7 @@
               "RelativeToolTip": "DAL\\Entities\\Concretes\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T15:23:49.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T15:23:49.181Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "DAL\\Context\\ProjectContext.cs",
               "ToolTip": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\StoicWorkOut\\DAL\\Context\\ProjectContext.cs",
               "RelativeToolTip": "DAL\\Context\\ProjectContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T14:57:12.353Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "DAL\\Entities\\Enums\\DataStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T17:46:45.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T17:46:45.277Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "DAL\\Entities\\Abstracts\\IEntity.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T05:46:22.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T05:46:22.239Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "DAL\\Entities\\Abstracts\\BaseEntity.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T05:45:57.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T05:45:57.453Z"
             }
           ]
         }
