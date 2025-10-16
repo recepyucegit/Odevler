@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\buse-\\OneDrive\\Belgeler\\GitHub\\Odevler\\Project\\Wep_Api_Driller_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCrud.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\wep_api_driller_1\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCrud.csproj|solutionrelative:api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCRUD.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\wep_api_driller_1\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCRUD.csproj|solutionrelative:api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCrud.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\wep_api_driller_1\\api\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCrud.csproj|solutionrelative:api\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCRUD.csproj|c:\\users\\buse-\\onedrive\\belgeler\\github\\odevler\\project\\wep_api_driller_1\\api\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E75107A2-3EC0-45C8-80A2-B94A2CA9FA57}|API\\WebApiCRUD.csproj|solutionrelative:api\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,8 +47,7 @@
               "RelativeToolTip": "API\\Models\\Branch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T10:58:50.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T10:58:50.603Z"
             }
           ]
         }
