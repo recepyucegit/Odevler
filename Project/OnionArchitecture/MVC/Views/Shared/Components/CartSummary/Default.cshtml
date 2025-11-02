@@ -1,0 +1,21 @@
+﻿@model Application.DTOs.CartDTOs.CartDTO
+
+<div class="cart-summary">
+    <a href="@Url.Action("Index", "Cart")" class="btn btn-outline-light position-relative">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="ms-1 d-none d-md-inline">Sepetim</span>
+        @if (Model.TotalItemCount > 0)
+        {
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                @Model.TotalItemCount
+                <span class="visually-hidden">sepetteki ürün sayısı</span>
+            </span>
+        }
+    </a>
+    @if (Model.TotalItemCount > 0)
+    {
+        <small class="text-white ms-2 d-none d-lg-inline">
+            @Model.TotalAmount.ToString("C2")
+        </small>
+    }
+</div>

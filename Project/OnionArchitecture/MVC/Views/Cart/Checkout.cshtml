@@ -1,0 +1,213 @@
+﻿@model Application.DTOs.CartDTOs.CartDTO
+@{
+    ViewData["Title"] = "Ödeme";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">
+        <i class="fas fa-credit-card"></i> Ödeme Sayfası
+    </h2>
+
+    <div class="row">
+        <!-- Sipariş Özeti -->
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Sipariş Özeti</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Ürün</th>
+                                    <th class="text-center">Birim Fiyat</th>
+                                    <th class="text-center">Adet</th>
+                                    <th class="text-end">Toplam</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Items)
+                                {
+                                    <tr>
+                                        <td>
+                                            <strong>@item.ProductName</strong>
+                                            @if (!string.IsNullOrEmpty(item.Description))
+                                            {
+                                                <br />
+                                                <small class="text-muted">@item.Description</small>
+                                            }
+                                        </td>
+                                        <td class="text-center">@item.UnitPrice.ToString("C2")</td>
+                                        <td class="text-center">@item.Quantity</td>
+                                        <td class="text-end"><strong>@item.TotalPrice.ToString("C2")</strong></td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr class="table-active">
+                                    <td colspan="3" class="text-end"><strong>Toplam:</strong></td>
+                                    <td class="text-end">
+                                        <h5 class="text-primary mb-0">@Model.TotalAmount.ToString("C2")</h5>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teslimat Bilgileri -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Teslimat Bilgileri</h5>
+                </div>
+                <div class="card-body">
+                    <form id="checkoutForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Ad *</label>
+                                <input type="text" class="form-control" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Soyad *</label>
+                                <input type="text" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">E-posta *</label>
+                            <input type="email" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Telefon *</label>
+                            <input type="tel" class="form-control" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Adres *</label>
+                            <textarea class="form-control" rows="3" required></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Şehir *</label>
+                                <input type="text" class="form-control" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Posta Kodu *</label>
+                                <input type="text" class="form-control" required />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Ödeme Bilgileri -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Ödeme Bilgileri</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">Kart Numarası *</label>
+                        <input type="text" class="form-control" placeholder="1234 5678 9012 3456" maxlength="19" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Kart Üzerindeki İsim *</label>
+                        <input type="text" class="form-control" required />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Son Kullanma Tarihi *</label>
+                            <input type="text" class="form-control" placeholder="MM/YY" maxlength="5" required />
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">CVV *</label>
+                            <input type="text" class="form-control" placeholder="123" maxlength="4" required />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ödeme Özeti -->
+        <div class="col-lg-4">
+            <div class="card sticky-top" style="top: 20px;">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Ödeme Özeti</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Ürün Toplamı:</span>
+                        <strong>@Model.TotalAmount.ToString("C2")</strong>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Kargo:</span>
+                        <strong class="text-success">Ücretsiz</strong>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>KDV:</span>
+                        <strong>@((Model.TotalAmount * 0.18m).ToString("C2"))</strong>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between mb-3">
+                        <h5>Ödenecek Tutar:</h5>
+                        <h5 class="text-success">@((Model.TotalAmount * 1.18m).ToString("C2"))</h5>
+                    </div>
+
+                    <button type="button" class="btn btn-success btn-lg w-100 mb-2" onclick="confirmPayment()">
+                        <i class="fas fa-lock"></i> Ödemeyi Tamamla
+                    </button>
+
+                    <a href="@Url.Action("Index")" class="btn btn-outline-secondary w-100">
+                        <i class="fas fa-arrow-left"></i> Sepete Dön
+                    </a>
+
+                    <div class="text-center mt-3">
+                        <small class="text-muted">
+                            <i class="fas fa-shield-alt"></i>
+                            Güvenli ödeme altyapısı ile korunuyorsunuz
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kabul Edilen Kartlar -->
+            <div class="card mt-3">
+                <div class="card-body text-center">
+                    <p class="small mb-2">Kabul Edilen Kartlar:</p>
+                    <div>
+                        <i class="fab fa-cc-visa fa-2x me-2"></i>
+                        <i class="fab fa-cc-mastercard fa-2x me-2"></i>
+                        <i class="fab fa-cc-amex fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmPayment() {
+            // Form validasyonu
+            const form = document.getElementById('checkoutForm');
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+
+            // Ödeme onayı
+            if (confirm('Ödemeyi onaylıyor musunuz?')) {
+                alert('Ödeme işlemi başarılı! (Bu bir demo uygulamasıdır)');
+                // Gerçek uygulamada burada ödeme API'sine istek atılır
+                window.location.href = '@Url.Action("Index", "Home")';
+            }
+        }
+
+        // Kart numarası formatla
+        document.querySelector('input[placeholder="1234 5678 9012 3456"]').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\s/g, '');
+            let formattedValue = value.match(/.{1,4}/g)?.join(' ') || value;
+            e.target.value = formattedValue;
+        });
+    </script>
+}

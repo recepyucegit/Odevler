@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tedarikçi Yönetim Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div>
+                    <h1>🏭 Tedarikçi Yönetim Sistemi</h1>
+                    <p id="welcomeText">Hoş geldiniz!</p>
+                </div>
+                <button onclick="logout()" class="btn-logout">
+                    🚪 Çıkış Yap
+                </button>
+            </div>
+        </header>
+
+        <div class="api-config">
+            <label for="apiUrl">API URL:</label>
+            <input type="text" id="apiUrl" value="https://localhost:7266/api/Supplier" placeholder="API URL">
+        </div>
+
+        <div id="alertBox" class="alert"></div>
+
+        <div class="main-content">
+            <div class="form-section">
+                <h2 id="formTitle">➕ Yeni Tedarikçi Ekle</h2>
+                <form id="supplierForm">
+                    <input type="hidden" id="supplierId">
+                    
+                    <div class="form-group">
+                        <label for="contactName">İletişim Kişisi *</label>
+                        <input type="text" id="contactName" required placeholder="Ahmet Yılmaz">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="companyName">Şirket Adı *</label>
+                        <input type="text" id="companyName" required placeholder="ABC Ticaret Ltd. Şti.">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phoneNumber">Telefon *</label>
+                        <input type="tel" id="phoneNumber" required placeholder="05XX XXX XX XX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Adres</label>
+                        <textarea id="address" placeholder="İş adresi..." rows="3"></textarea>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="submit" class="btn-primary" id="submitBtn">
+                            💾 Kaydet
+                        </button>
+                        <button type="button" class="btn-secondary" onclick="resetForm()">
+                            ❌ İptal
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="list-section">
+                <h2>📋 Tedarikçi Listesi</h2>
+                
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3 id="totalSuppliers">0</h3>
+                        <p>Toplam Tedarikçi</p>
+                    </div>
+                </div>
+
+                <div id="supplierList">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Yükleniyor...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

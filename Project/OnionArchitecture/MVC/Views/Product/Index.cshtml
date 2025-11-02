@@ -1,0 +1,109 @@
+﻿@model List<Application.DTOs.ProductDTOs.ProductDTO>
+@{
+    ViewData["Title"] = "Ürünler";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="fas fa-box-open"></i> Ürünlerimiz</h2>
+        <a href="@Url.Action("Index", "Cart")" class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i> Sepete Git
+        </a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fas fa-check-circle"></i> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="fas fa-exclamation-circle"></i> @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        @foreach (var product in Model)
+        {
+            <div class="col">
+                @await Html.PartialAsync("_ProductCard", product)
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // AJAX ile sepete ekleme fonksiyonu
+        function addToCartAjax(productId) {
+            $.ajax({
+                url: '@Url.Action("AddToCartAjax", "Cart")',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    productId: productId,
+                    quantity: 1
+                }),
+                success: function(response) {
+                    if (response.success) {
+                        // Başarılı mesajı
+                        showNotification(response.message, 'success');
+
+                        // Sepet badge'ini güncelle
+                        updateCartBadge(response.cartItemCount);
+                    } else {
+                        showNotification(response.message, 'error');
+                    }
+                },
+                error: function() {
+                    showNotification('Bir hata oluştu!', 'error');
+                }
+            });
+        }
+
+        // Bildirim göster
+        function showNotification(message, type) {
+            const alertClass = type === 'success' ? 'alert-success' : 'alert-danger';
+            const icon = type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle';
+
+            const alertHtml = `
+                <div class="alert ${alertClass} alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3"
+                     style="z-index: 9999; min-width: 300px;" role="alert">
+                    <i class="fas ${icon}"></i> ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+
+            $('body').append(alertHtml);
+
+            // 3 saniye sonra otomatik kapat
+            setTimeout(function() {
+                $('.alert').fadeOut('slow', function() {
+                    $(this).remove();
+                });
+            }, 3000);
+        }
+
+        // Sepet badge'ini güncelle
+        function updateCartBadge(count) {
+            const badge = $('.cart-summary .badge');
+            if (count > 0) {
+                badge.text(count).show();
+            } else {
+                badge.hide();
+            }
+        }
+
+        // Sayfa yüklendiğinde alert'leri otomatik kapat
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('.alert').fadeOut('slow');
+            }, 5000);
+        });
+    </script>
+}
