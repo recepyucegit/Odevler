@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Yeni Rol Oluştur";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">
+            <i class="bi bi-shield-plus"></i> Yeni Rol Oluştur
+        </h1>
+        <a asp-action="RoleList" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Rol Listesi
+        </a>
+    </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="bi bi-exclamation-circle"></i> @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h6 class="m-0 font-weight-bold">
+                        <i class="bi bi-plus-circle"></i> Rol Bilgileri
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <form asp-action="CreateRole" method="post">
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="mb-4">
+                            <label for="roleName" class="form-label">
+                                <i class="bi bi-shield"></i> Rol Adı <span class="text-danger">*</span>
+                            </label>
+                            <input type="text" class="form-control form-control-lg"
+                                   id="roleName" name="roleName"
+                                   placeholder="Örn: Manager, Editor, Moderator" required>
+                            <div class="form-text">
+                                Rol adı benzersiz olmalıdır ve boşluk içermemelidir.
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info">
+                            <h6><i class="bi bi-info-circle"></i> Dikkat Edilmesi Gerekenler:</h6>
+                            <ul class="mb-0">
+                                <li>Rol adı İngilizce karakterler içermelidir.</li>
+                                <li>Boşluk yerine alt çizgi (_) kullanabilirsiniz.</li>
+                                <li>Rol adı daha sonra değiştirilemez.</li>
+                                <li>Oluşturulan role kullanıcılar atanabilir.</li>
+                            </ul>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-check-circle"></i> Rolü Oluştur
+                            </button>
+                            <a asp-action="RoleList" class="btn btn-outline-secondary btn-lg">
+                                <i class="bi bi-x-circle"></i> İptal
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card shadow mt-4">
+                <div class="card-header bg-light">
+                    <h6 class="m-0 font-weight-bold text-primary">
+                        <i class="bi bi-lightbulb"></i> Örnek Rol İsimleri
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><strong>Manager:</strong> Yönetici yetkisi</li>
+                                <li><strong>Editor:</strong> İçerik düzenleme yetkisi</li>
+                                <li><strong>Moderator:</strong> Forum/yorum yönetimi</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><strong>Support:</strong> Destek ekibi</li>
+                                <li><strong>Premium:</strong> Premium üyelik</li>
+                                <li><strong>Vendor:</strong> Satıcı yetkisi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

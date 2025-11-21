@@ -1,0 +1,137 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "Sipariş Takibi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3 class="card-title mb-0">
+                        <i class="bi bi-check-circle"></i> Siparişiniz Alındı!
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5>Sipariş Bilgileri</h5>
+                            <table class="table table-borderless">
+                                <tr>
+                                    <td><strong>Sipariş No:</strong></td>
+                                    <td>#@ViewBag.OrderId</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Sipariş Tarihi:</strong></td>
+                                    <td>@ViewBag.OrderDate?.ToString("dd.MM.yyyy HH:mm")</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Durum:</strong></td>
+                                    <td>
+                                        @if (string.IsNullOrEmpty(ViewBag.ShipperName))
+                                        {
+                                            <span class="badge bg-warning">Hazırlanıyor</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-success">Kargoya Verildi</span>
+                                        }
+                                    </td>
+                                </tr>
+                                @if (!string.IsNullOrEmpty(ViewBag.ShipperName))
+                                {
+                                    <tr>
+                                        <td><strong>Kargo Firması:</strong></td>
+                                        <td>@ViewBag.ShipperName</td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <div class="mb-3">
+                                    @if (string.IsNullOrEmpty(ViewBag.ShipperName))
+                                    {
+                                        <div class="spinner-border text-warning" role="status">
+                                            <span class="visually-hidden">Hazırlanıyor...</span>
+                                        </div>
+                                        <p class="mt-2">Siparişiniz hazırlanıyor...</p>
+                                    }
+                                    else
+                                    {
+                                        <i class="bi bi-truck" style="font-size: 3rem; color: #28a745;"></i>
+                                        <p class="mt-2 text-success">Siparişiniz kargoya verildi!</p>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sipariş Durumu Timeline -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Sipariş Süreci</h5>
+                            <div class="timeline">
+                                <div class="timeline-item completed">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h6>Sipariş Alındı</h6>
+                                        <p class="text-muted">@ViewBag.OrderDate?.ToString("dd.MM.yyyy HH:mm")</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item @(string.IsNullOrEmpty(ViewBag.ShipperName) ? "active" : "completed")">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h6>Hazırlanıyor</h6>
+                                        @if (string.IsNullOrEmpty(ViewBag.ShipperName))
+                                        {
+                                            <p class="text-muted">Siparişiniz hazırlanıyor...</p>
+                                        }
+                                        else
+                                        {
+                                            <p class="text-muted">Tamamlandı</p>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item @(string.IsNullOrEmpty(ViewBag.ShipperName) ? "" : "completed")">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h6>Kargoya Verildi</h6>
+                                        @if (!string.IsNullOrEmpty(ViewBag.ShipperName))
+                                        {
+                                            <p class="text-muted">Kargo Firması: @ViewBag.ShipperName</p>
+                                        }
+                                        else
+                                        {
+                                            <p class="text-muted">Bekleniyor...</p>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h6>Teslim Edildi</h6>
+                                        <p class="text-muted">Bekleniyor...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-12 text-center">
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Alışverişe Devam Et</a>
+                            <button onclick="window.print()" class="btn btn-outline-secondary ms-2">Yazdır</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

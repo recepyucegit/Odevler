@@ -1,0 +1,138 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "Kargo Bilgisi Güncelle";
+}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Kargo Bilgisi Güncelle - Sipariş #@Model.ID</h1>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Sipariş Listesi
+    </a>
+</div>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-header py-3 bg-primary text-white">
+                <h6 class="m-0 font-weight-bold">
+                    <i class="fas fa-truck"></i> Kargo Firması Seçimi
+                </h6>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-action="UpdateShipper" asp-route-id="@Model.ID">
+                    <div class="mb-4">
+                        <label class="form-label h6">Mevcut Durum:</label>
+                        <div>
+                            @if (Model.ShipperId == null)
+                            {
+                                <span class="badge bg-warning text-dark fs-6">
+                                    <i class="fas fa-clock"></i> Hazırlanıyor
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success fs-6">
+                                    <i class="fas fa-truck"></i> Kargoya Verildi - @Model.Shipper?.ShipperName
+                                </span>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="shipperId" class="form-label h6">
+                            Kargo Firması <span class="text-danger">*</span>
+                        </label>
+                        <select class="form-select form-select-lg" id="shipperId" name="shipperId" required>
+                            <option value="">Kargo firması seçiniz...</option>
+                            @foreach (var shipper in ViewBag.Shippers as List<Shipper>)
+                            {
+                                <option value="@shipper.ID" selected="@(Model.ShipperId == shipper.ID)">
+                                    @shipper.ShipperName
+                                    @if (!string.IsNullOrEmpty(shipper.ContactInfo))
+                                    {
+                                        <text> - @shipper.ContactInfo</text>
+                                    }
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <strong>Bilgilendirme:</strong> Bu işlem sipariş durumunu "Kargoya Verildi" olarak günceller.
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-flex">
+                        <button type="submit" class="btn btn-success btn-lg me-md-2" 
+                                onclick="return confirm('Kargo bilgisini güncellemek istediğinizden emin misiniz?')">
+                            <i class="fas fa-truck"></i> Kargoya Ver
+                        </button>
+                        <a asp-action="Details" asp-route-id="@Model.ID" class="btn btn-outline-secondary btn-lg">
+                            <i class="fas fa-times"></i> İptal
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-header py-3 bg-info text-white">
+                <h6 class="m-0 font-weight-bold">
+                    <i class="fas fa-info-circle"></i> Sipariş Özeti
+                </h6>
+            </div>
+            <div class="card-body">
+                <table class="table table-borderless">
+                    <tr>
+                        <td><i class="fas fa-hashtag text-muted"></i> <strong>Sipariş No:</strong></td>
+                        <td>#@Model.ID</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-calendar text-muted"></i> <strong>Sipariş Tarihi:</strong></td>
+                        <td>@Model.OrderDate.ToString("dd.MM.yyyy")<br>
+                            <small class="text-muted">@Model.OrderDate.ToString("HH:mm")</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-user text-muted"></i> <strong>Müşteri ID:</strong></td>
+                        <td>
+                            <code>@Model.UserId.Substring(0, 8)...</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Durum:</strong></td>
+                        <td>
+                            @if (Model.ShipperId == null)
+                            {
+                                <span class="badge bg-warning text-dark">Hazırlanıyor</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Kargoya Verildi</span>
+                            }
+                        </td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <div class="d-grid">
+                    <a asp-action="Details" asp-route-id="@Model.ID" class="btn btn-outline-info">
+                        <i class="fas fa-eye"></i> Sipariş Detaylarını Görüntüle
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

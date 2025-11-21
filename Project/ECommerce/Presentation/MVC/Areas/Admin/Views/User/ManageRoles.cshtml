@@ -1,0 +1,104 @@
+﻿@model MVC.Areas.Admin.Models.UserViewModels.ManageUserRolesViewModel
+
+@{
+    ViewData["Title"] = "Rol Yönetimi";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">
+            <i class="bi bi-shield-check"></i> Kullanıcı Rol Yönetimi
+        </h1>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Kullanıcı Listesi
+        </a>
+    </div>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="bi bi-exclamation-circle"></i> @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h6 class="m-0 font-weight-bold">
+                        <i class="bi bi-person-badge"></i> @Model.UserName için Rol Ataması
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label text-muted">Kullanıcı Bilgileri:</label>
+                        <div class="p-3 bg-light rounded">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong>Kullanıcı Adı:</strong> @Model.UserName
+                                </div>
+                                <div class="col-md-6">
+                                    <strong>Email:</strong> @Model.Email
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form asp-action="ManageRoles" method="post">
+                        <input type="hidden" asp-for="UserId" />
+                        <input type="hidden" asp-for="UserName" />
+                        <input type="hidden" asp-for="Email" />
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                <i class="bi bi-shield"></i> Roller
+                                <small class="text-muted">(Kullanıcıya atamak istediğiniz rolleri seçin)</small>
+                            </label>
+
+                            <div class="list-group">
+                                @for (int i = 0; i < Model.UserRoles.Count; i++)
+                                {
+                                    <div class="list-group-item">
+                                        <div class="form-check">
+                                            <input type="hidden" asp-for="@Model.UserRoles[i].RoleName" />
+                                            <input class="form-check-input" type="checkbox"
+                                                   asp-for="@Model.UserRoles[i].IsSelected"
+                                                   id="role_@i">
+                                            <label class="form-check-label" for="role_@i">
+                                                @Model.UserRoles[i].RoleName
+                                                @if (Model.UserRoles[i].RoleName.ToLower() == "admin")
+                                                {
+                                                    <span class="badge bg-danger ms-2">Yönetici</span>
+                                                }
+                                                else if (Model.UserRoles[i].RoleName.ToLower() == "customer")
+                                                {
+                                                    <span class="badge bg-primary ms-2">Müşteri</span>
+                                                }
+                                            </label>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i>
+                            <strong>Dikkat:</strong> Admin rolü, kullanıcıya yönetim paneline erişim yetkisi verir.
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-check-circle"></i> Rolleri Kaydet
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                                <i class="bi bi-x-circle"></i> İptal
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

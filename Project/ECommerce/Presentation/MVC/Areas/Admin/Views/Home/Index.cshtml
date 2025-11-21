@@ -1,0 +1,263 @@
+@model List<Order>
+@{
+    ViewData["Title"] = "Admin/Home/Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!--begin::Content Header-->
+<div class="app-content-header">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <h3 class="mb-0">Dashboard</h3>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-sm-end align-items-center gap-3">
+                <ol class="breadcrumb float-sm-end mb-0">
+                    <li class="breadcrumb-item"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                </ol>
+                <span class="text-muted small">
+                    @DateTime.Now.ToString("dd MMMM yyyy, HH:mm", new System.Globalization.CultureInfo("tr-TR"))
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end::Content Header-->
+
+<!--begin::App Content-->
+<div class="app-content">
+    <div class="container-fluid">
+
+        <!-- KPI Row 1 -->
+        <div class="row">
+            <!-- Toplam Sipariş -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-primary">
+                    <div class="inner">
+                        <h3>@ViewBag.TotalOrders</h3>
+                        <p>Toplam Sipariş</p>
+                    </div>
+                    <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"></path>
+                    </svg>
+                    <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Daha Fazla <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Toplam Ürün -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-success">
+                    <div class="inner">
+                        <h3>@ViewBag.TotalProducts</h3>
+                        <p>Toplam Ürün</p>
+                    </div>
+                    <svg class="small-box-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path>
+                    </svg>
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Daha Fazla <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Toplam Kullanıcı -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-warning">
+                    <div class="inner">
+                        <h3>@ViewBag.TotalUsers</h3>
+                        <p>Kullanıcı Sayısı</p>
+                    </div>
+                    <i class="bi bi-person-plus small-box-icon"></i>
+                    <a href="#" class="small-box-footer link-dark link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Daha Fazla <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Toplam Gelir -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-danger">
+                    <div class="inner">
+                        <h3>@ViewBag.TotalRevenue ₺</h3>
+                        <p>Toplam Gelir</p>
+                    </div>
+                    <i class="bi bi-graph-up-arrow small-box-icon"></i>
+                    <a href="#" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Daha Fazla <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Row 2 (Durum Bazlı) -->
+        <div class="row">
+            <!-- Hazırlanıyor -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-secondary">
+                    <div class="inner">
+                        <h3>@ViewBag.PendingOrders</h3>
+                        <p>Hazırlanıyor</p>
+                    </div>
+                    <i class="bi bi-clock-history small-box-icon"></i>
+                    <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Siparişlere Git <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Kargoya Verildi -->
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-info">
+                    <div class="inner">
+                        <h3>@ViewBag.ShippedOrders</h3>
+                        <p>Kargoya Verildi</p>
+                    </div>
+                    <i class="bi bi-truck small-box-icon"></i>
+                    <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="small-box-footer link-light link-underline-opacity-0 link-underline-opacity-50-hover">
+                        Siparişlere Git <i class="bi bi-link-45deg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Son Siparişler (Son 10) -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 fw-bold text-primary">Son Siparişler (Son 10)</h6>
+                <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="btn btn-primary btn-sm">
+                    <i class="bi bi-list-ul"></i> Tüm Siparişleri Görüntüle
+                </a>
+            </div>
+            <div class="card-body">
+                @if (Model != null && Model.Any())
+                {
+                    <div class="table-responsive">
+                        <table class="table table-bordered align-middle mb-0" width="100%" cellspacing="0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Sipariş No</th>
+                                    <th>Müşteri</th>
+                                    <th>Sipariş Tarihi</th>
+                                    <th>Durum</th>
+                                    <th>Kargo Firması</th>
+                                    <th class="text-center">İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model)
+                                {
+                                    var isShipped = order.ShipperId != null;
+                                    <tr class="@(isShipped ? "table-success" : "table-warning")">
+                                        <td class="fw-bold">#@order.ID</td>
+                                        <td>
+                                            <i class="bi bi-person text-muted me-1"></i>
+                                            @(order.UserId?.Length >= 8 ? order.UserId.Substring(0, 8) + "..." : order.UserId)
+                                        </td>
+                                        <td>
+                                            <small>@order.OrderDate.ToString("dd.MM.yyyy")</small><br />
+                                            <small class="text-muted">@order.OrderDate.ToString("HH:mm")</small>
+                                        </td>
+                                        <td>
+                                            @if (!isShipped)
+                                            {
+                                                <span class="badge text-bg-warning">
+                                                    <i class="bi bi-hourglass-split"></i> Hazırlanıyor
+                                                </span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge text-bg-success">
+                                                    <i class="bi bi-truck"></i> Kargoya Verildi
+                                                </span>
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (order.Shipper != null)
+                                            {
+                                                <strong class="text-success">@order.Shipper.ShipperName</strong>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted fst-italic">Henüz atanmamış</span>
+                                            }
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="btn-group btn-group-sm" role="group">
+                                                <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-id="@order.ID" class="btn btn-outline-info" title="Detay">
+                                                    <i class="bi bi-eye"></i>
+                                                </a>
+                                                @if (!isShipped)
+                                                {
+                                                    <a asp-area="Admin" asp-controller="Order" asp-action="UpdateShipper" asp-route-id="@order.ID" class="btn btn-outline-warning" title="Kargoya Ver">
+                                                        <i class="bi bi-truck"></i>
+                                                    </a>
+                                                }
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-4">
+                        <i class="bi bi-inbox fs-1 text-muted d-block mb-2"></i>
+                        <h5 class="text-muted mb-1">Henüz sipariş bulunmamaktadır</h5>
+                        <p class="text-muted mb-0">Müşteriler sipariş verdiğinde burada görünecektir.</p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Hızlı İşlemler & Sistem Durumu -->
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 fw-bold text-primary">Hızlı İşlemler</h6>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="list-group list-group-flush">
+                            <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="list-group-item list-group-item-action">
+                                <i class="bi bi-bag-check me-2 text-primary"></i> Tüm Siparişleri Yönet
+                            </a>
+                            <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="list-group-item list-group-item-action">
+                                <i class="bi bi-box-seam me-2 text-info"></i> Ürün Yönetimi
+                            </a>
+                            <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="list-group-item list-group-item-action">
+                                <i class="bi bi-tags me-2 text-success"></i> Kategori Yönetimi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 fw-bold text-success">Sistem Durumu</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-6 border-end">
+                                <h4 class="text-success mb-0">@ViewBag.TotalCategories</h4>
+                                <small class="text-muted">Kategori</small>
+                            </div>
+                            <div class="col-6">
+                                <h4 class="text-info mb-0">@ViewBag.TotalProducts</h4>
+                                <small class="text-muted">Ürün</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--end::App Content-->

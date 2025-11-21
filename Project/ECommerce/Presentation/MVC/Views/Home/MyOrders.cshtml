@@ -1,0 +1,122 @@
+﻿@model List<Order>
+
+@{
+    ViewData["Title"] = "Siparişlerim";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="h3 mb-4">
+                <i class="bi bi-bag-check"></i> Siparişlerim
+            </h1>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var order in Model)
+            {
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Sipariş #@order.ID</h6>
+                            @if (order.ShipperId == null)
+                            {
+                                <span class="badge bg-warning text-dark">
+                                    <i class="bi bi-clock"></i> Hazırlanıyor
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">
+                                    <i class="bi bi-truck"></i> Kargoya Verildi
+                                </span>
+                            }
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <small class="text-muted">
+                                    <i class="bi bi-calendar3"></i>
+                                    @order.OrderDate.ToString("dd MMMM yyyy, HH:mm", new System.Globalization.CultureInfo("tr-TR"))
+                                </small>
+                            </div>
+
+                            @if (order.Shipper != null)
+                            {
+                                <div class="mb-3">
+                                    <strong>Kargo Firması:</strong><br>
+                                    <span class="text-success">@order.Shipper.ShipperName</span>
+                                </div>
+                            }
+
+                            <div class="mb-3">
+                                <small class="text-muted">Sipariş Durumu:</small><br>
+                                @if (order.ShipperId == null)
+                                {
+                                    <div class="progress mb-2" style="height: 8px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <small>Siparişiniz hazırlanıyor...</small>
+                                }
+                                else
+                                {
+                                    <div class="progress mb-2" style="height: 8px;">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <small class="text-success">Kargoya teslim edildi</small>
+                                }
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a asp-action="Pending" asp-route-orderId="@order.ID" class="btn btn-outline-primary btn-sm w-100">
+                                <i class="bi bi-eye"></i> Detayları Görüntüle
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Sipariş İstatistikleri -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <h4 class="text-primary">@Model.Count</h4>
+                                <small class="text-muted">Toplam Sipariş</small>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="text-warning">@Model.Count(o => o.ShipperId == null)</h4>
+                                <small class="text-muted">Hazırlanıyor</small>
+                            </div>
+                            <div class="col-md-4">
+                                <h4 class="text-success">@Model.Count(o => o.ShipperId != null)</h4>
+                                <small class="text-muted">Kargoya Verildi</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Sipariş yok ise -->
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center py-5">
+                    <i class="bi bi-bag-x" style="font-size: 4rem; color: #6c757d;"></i>
+                    <h3 class="mt-3 text-muted">Henüz siparişiniz bulunmuyor</h3>
+                    <p class="text-muted">İlk siparişinizi vermek için alışverişe başlayın!</p>
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary btn-lg">
+                        <i class="bi bi-shop"></i> Alışverişe Başla
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

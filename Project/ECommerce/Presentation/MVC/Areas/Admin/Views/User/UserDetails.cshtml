@@ -1,0 +1,72 @@
+﻿@model MVC.Areas.Admin.Models.UserViewModels.UserDetailsViewModel
+
+@{
+    ViewData["Title"] = "Kullanıcı Detayı";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">
+            <i class="bi bi-person"></i> @Model.UserName - Detaylar
+        </h1>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Geri Dön
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Kullanıcı Bilgileri</h6>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Kullanıcı Adı</dt>
+                        <dd class="col-sm-8">@Model.UserName</dd>
+
+                        <dt class="col-sm-4">Email</dt>
+                        <dd class="col-sm-8">@Model.Email (@(Model.EmailConfirmed ? "Onaylı" : "Onaylanmamış"))</dd>
+
+                        <dt class="col-sm-4">Telefon</dt>
+                        <dd class="col-sm-8">@(Model.PhoneNumber ?? "-") (@(Model.PhoneNumberConfirmed ? "Onaylı" : "Onaylanmamış"))</dd>
+
+                        <dt class="col-sm-4">İki Faktörlü Doğrulama</dt>
+                        <dd class="col-sm-8">@(Model.TwoFactorEnabled ? "Aktif" : "Pasif")</dd>
+
+                        <dt class="col-sm-4">Kilitli mi?</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.LockoutEnd.HasValue && Model.LockoutEnd > DateTimeOffset.Now)
+                            {
+                                <span class="badge bg-warning text-dark">Evet (Bitiş: @Model.LockoutEnd.Value.LocalDateTime)</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Hayır</span>
+                            }
+                        </dd>
+
+                        <dt class="col-sm-4">Başarısız Giriş Denemesi</dt>
+                        <dd class="col-sm-8">@Model.AccessFailedCount</dd>
+
+                        <dt class="col-sm-4">Roller</dt>
+                        <dd class="col-sm-8">
+                            @if (Model.Roles.Any())
+                            {
+                                foreach (var role in Model.Roles)
+                                {
+                                    <span class="badge bg-info me-1">@role</span>
+                                }
+                            }
+                            else
+                            {
+                                <span class="text-muted">Rol atanmamış</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

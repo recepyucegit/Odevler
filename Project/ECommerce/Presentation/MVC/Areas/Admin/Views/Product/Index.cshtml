@@ -1,0 +1,68 @@
+﻿@model IEnumerable<DAL.Entities.Concretes.Product>
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <h2 class="card-title"> @ViewData["Title"]</h2>
+                <a asp-action="Create" asp-controller="Product" class="btn btn-success ms-auto">Yeni @ViewData["Title"]</a>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ürün ad</th>
+                            <th>Fiyat</th>
+                            <th>Stok</th>
+                            <th>Açıklama</th>
+                            <th>Durum</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model)
+                        {
+                            <tr>
+                                <td>@product.ID</td>
+                                <td>@product.ProductName</td>
+                                <td>@product.Price</td>
+                                <td>@product.Stock</td>
+                                <td>@product.Description</td>
+                                <td>
+                                    @if (product.Status == DAL.Entities.Enums.DataStatus.Active)
+                                    {
+                                        <span class="badge bg-success">Active</span>
+                                    }
+                                    else if (product.Status == DAL.Entities.Enums.DataStatus.Inactive)
+                                    {
+                                        <span class="badge bg-danger">Inactive</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary">@product.Status</span>
+                                    }
+                                </td>
+                                <td>
+                                    <a asp-action="Update" asp-controller="Product" asp-route-id="@product.ID" class="btn btn-warning">güncelle</a>
+                                    <a asp-action="Delete" asp-controller="Product" asp-route-id="@product.ID" class="btn btn-danger">sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+﻿@model LoginVM
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-4 mx-auto">
+
+        <div class="card">
+            <div class="card-header">
+                <h2>Giriş</h2>
+            </div>
+            <div class="card-body">
+
+                <form method="post">
+                    <div asp-validation-summary="All" class="text-danger">
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="email">Email adresi</label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <input type="email" class="form-control" asp-for="Email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Şifre</label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                        <input type="password" class="form-control" asp-for="Password" placeholder="Şifre">
+                    </div>
+                   
+                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

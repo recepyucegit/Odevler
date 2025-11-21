@@ -1,0 +1,9 @@
+﻿namespace MVC.Areas.Admin.Models.UserViewModels
+{
+    public class RoleViewModel
+    {
+        public string RoleId { get; set; }
+        public string RoleName { get; set; }
+        public int UserCount { get; set; }
+    }
+}

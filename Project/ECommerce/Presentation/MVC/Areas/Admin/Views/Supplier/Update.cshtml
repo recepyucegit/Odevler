@@ -1,0 +1,86 @@
+﻿@model DAL.Entities.Concretes.Supplier
+
+@{
+    ViewData["Title"] = "Update Supplier";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Update Supplier</h1>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div class="card">
+    <div class="card-body">
+        <form asp-area="Admin" asp-controller="Supplier" asp-action="Update" method="post" asp-antiforgery="true">
+            <input type="hidden" asp-for="ID" />
+
+            <div class="form-group mb-3">
+                <label asp-for="CompanyName" class="form-label"></label>
+                <input asp-for="CompanyName" class="form-control" />
+                <span asp-validation-for="CompanyName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ContactName" class="form-label"></label>
+                <input asp-for="ContactName" class="form-control" />
+                <span asp-validation-for="ContactName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ContactTitle" class="form-label"></label>
+                <input asp-for="ContactTitle" class="form-control" />
+                <span asp-validation-for="ContactTitle" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Address" class="form-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="City" class="form-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Country" class="form-label"></label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Phone" class="form-label"></label>
+                <input asp-for="Phone" class="form-control" id="phoneInput" type="tel" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Status" class="form-label"></label>
+                <select asp-for="Status" class="form-control">
+                    <option value="@DAL.Entities.Enums.DataStatus.Active">Active</option>
+                    <option value="@DAL.Entities.Enums.DataStatus.Inactive">Inactive</option>
+                    <option value="@DAL.Entities.Enums.DataStatus.None">None</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById('phoneInput').addEventListener('input', function(e) {
+            // Sadece rakam, +, -, boşluk, () karakterlerine izin ver
+            this.value = this.value.replace(/[^0-9+\-()\s]/g, '');
+        });
+    </script>
+}

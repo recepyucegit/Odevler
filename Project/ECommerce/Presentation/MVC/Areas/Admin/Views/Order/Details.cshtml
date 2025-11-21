@@ -1,0 +1,227 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "Sipariş Detayları";
+    var orderDetails = ViewBag.OrderDetails as List<OrderDetail>;
+    var totalAmount = ViewBag.TotalAmount as decimal?;
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Sipariş Detayları - #@Model.ID</h1>
+    <div>
+        <a asp-action="Index" class="btn btn-secondary me-2">
+            <i class="fas fa-arrow-left"></i> Sipariş Listesi
+        </a>
+        @if (Model.ShipperId == null)
+        {
+            <a asp-action="UpdateShipper" asp-route-id="@Model.ID" class="btn btn-warning">
+                <i class="fas fa-truck"></i> Kargoya Ver
+            </a>
+        }
+        else
+        {
+            <a asp-action="UpdateShipper" asp-route-id="@Model.ID" class="btn btn-info">
+                <i class="fas fa-edit"></i> Kargo Güncelle
+            </a>
+        }
+    </div>
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<!-- Sipariş Bilgileri Kartı -->
+<div class="row mb-4">
+    <div class="col-xl-8">
+        <div class="card shadow">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Sipariş Bilgileri</h6>
+                @if (Model.ShipperId == null)
+                {
+                    <span class="badge bg-warning text-dark fs-6">
+                        <i class="fas fa-clock"></i> Hazırlanıyor
+                    </span>
+                }
+                else
+                {
+                    <span class="badge bg-success fs-6">
+                        <i class="fas fa-truck"></i> Kargoya Verildi
+                    </span>
+                }
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-borderless">
+                            <tr>
+                                <td><strong>Sipariş No:</strong></td>
+                                <td>#@Model.ID</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sipariş Tarihi:</strong></td>
+                                <td>@Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Müşteri ID:</strong></td>
+                                <td><code>@Model.UserId</code></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Durum:</strong></td>
+                                <td>
+                                    @if (Model.ShipperId == null)
+                                    {
+                                        <span class="badge bg-warning text-dark">Hazırlanıyor</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">Kargoya Verildi</span>
+                                    }
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-borderless">
+                            <tr>
+                                <td><strong>Kargo Firması:</strong></td>
+                                <td>
+                                    @if (Model.Shipper != null)
+                                    {
+                                        <span class="text-success">@Model.Shipper.ShipperName</span>
+                                        @if (!string.IsNullOrEmpty(Model.Shipper.ContactInfo))
+                                        {
+                                            <br>
+                                    
+                                            <small class="text-muted">@Model.Shipper.ContactInfo</small>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Henüz atanmamış</span>
+                                    }
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Oluşturulma:</strong></td>
+                                <td>@Model.CreatedDate.ToString("dd.MM.yyyy HH:mm")</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Son Güncelleme:</strong></td>
+                                <td>
+                                    @if (Model.ModifiedDate.HasValue)
+                                    {
+                                        @Model.ModifiedDate.Value.ToString("dd.MM.yyyy HH:mm")
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">-</span>
+                                    }
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Toplam Tutar:</strong></td>
+                                <td><strong class="text-success">@totalAmount?.ToString("C", new System.Globalization.CultureInfo("tr-TR"))</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-4">
+        <div class="card shadow">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-info">Hızlı İşlemler</h6>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    @if (Model.ShipperId == null)
+                    {
+                        <a asp-action="UpdateShipper" asp-route-id="@Model.ID" class="btn btn-warning">
+                            <i class="fas fa-truck"></i> Kargoya Ver
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-action="UpdateShipper" asp-route-id="@Model.ID" class="btn btn-info">
+                            <i class="fas fa-edit"></i> Kargo Güncelle
+                        </a>
+                    }
+                    <button class="btn btn-outline-secondary" onclick="window.print()">
+                        <i class="fas fa-print"></i> Yazdır
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sipariş Detayları Tablosu -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Sipariş Detayları (@orderDetails?.Count() ürün)</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" width="100%" cellspacing="0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Ürün Adı</th>
+                        <th>Birim Fiyat</th>
+                        <th>Adet</th>
+                        <th>Ara Toplam</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (orderDetails != null && orderDetails.Any())
+                    {
+                        @foreach (var detail in orderDetails)
+                        {
+                            <tr>
+                                <td>
+                                    <strong>@detail.Product?.ProductName</strong>
+                                    @if (!string.IsNullOrEmpty(detail.Product?.Description))
+                                    {
+                                        <br>
+                            
+                                        <small class="text-muted">@detail.Product.Description</small>
+                                    }
+                                </td>
+                                <td>@detail.UnitPrice.ToString("C", new System.Globalization.CultureInfo("tr-TR"))</td>
+                                <td>
+                                    <span class="badge bg-primary">@detail.Quantity</span>
+                                </td>
+                                <td>
+                                    <strong>@((detail.Quantity * detail.UnitPrice).ToString("C", new System.Globalization.CultureInfo("tr-TR")))</strong>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center text-muted">
+                                Sipariş detayı bulunamadı.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot class="table-light">
+                    <tr>
+                        <th colspan="3" class="text-end">Genel Toplam:</th>
+                        <th>
+                            <span class="text-success">@totalAmount?.ToString("C", new System.Globalization.CultureInfo("tr-TR"))</span>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

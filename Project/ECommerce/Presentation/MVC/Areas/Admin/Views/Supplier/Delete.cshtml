@@ -1,0 +1,19 @@
+﻿@model DAL.Entities.Concretes.Supplier
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h5>Delete Confirmation</h5>
+    </div>
+    <div class="card-body">
+        <p>Bu supplier'ı silmek istediğine emin misin?: @Model.CompanyName</p>
+        <form asp-action="Delete" method="post">
+            <input type="hidden" name="id" value="@Model.ID" />
+            <button type="submit" class="btn btn-danger">Onayla</button>
+            <a asp-action="Index" class="btn btn-secondary">İptal</a>
+        </form>
+    </div>
+</div>
